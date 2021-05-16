@@ -6,7 +6,11 @@ import javax.servlet.http.*;
 
 public class HelloWorld extends HttpServlet {	
 	
-	prive byte test;
+<<<<<<< HEAD
+	prive Byte test;
+=======
+	prive double test;
+>>>>>>> dog
 	
   public void doPost(HttpServletRequest req, HttpServletResponse res)	
                                throws ServletException, IOException {
